@@ -10,7 +10,7 @@ Detects new screenshots in the clipboard and automatically pastes them into supp
 
 ## GitHub Pages
 
-本仓库包含 ClipToBox 的官方网站和隐私政策页面。
+本仓库包含 ClipToBox 的网站和隐私政策页面。
 
 - 首页：`https://yufenghub.github.io/ClipToBox/`
 - 隐私政策：`https://yufenghub.github.io/ClipToBox/privacy.html`
