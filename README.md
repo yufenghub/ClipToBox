@@ -2,6 +2,10 @@
 
 检测剪贴板中新截图并自动粘贴到允许的 AI 对话页；可选择仅当前标签页或广播到所有 AI 标签页。
 
+## 演示
+
+![ClipToBox Demo](assets/demo.gif)
+
 ## GitHub Pages
 
 本仓库包含 ClipToBox 的官方网站和隐私政策页面。
