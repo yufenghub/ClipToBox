@@ -9,15 +9,6 @@
 - 首页：`https://yufenghub.github.io/ClipToBox/`
 - 隐私政策：`https://yufenghub.github.io/ClipToBox/privacy.html`
 
-### 开启 GitHub Pages
-
-1. 打开仓库的 **Settings**。
-2. 左侧进入 **Pages**。
-3. `Build and deployment` → `Source` 选择 **Deploy from a branch**。
-4. Branch 选择 **main**，Folder 选择 **/(root)**。
-5. 点击 **Save**。
-6. 等待 GitHub 完成部署。
-
 ## 默认支持
 
 - ChatGPT
