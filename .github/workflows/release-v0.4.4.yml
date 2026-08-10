@@ -1,0 +1,27 @@
+name: Publish ClipToBox v0.4.4
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: contains(github.event.head_commit.message, '[release v0.4.4]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v0.4.4 ".release/ClipToBox-v0.4.4-Edge.zip" \
+            --repo "${{ github.repository }}" \
+            --target main \
+            --title "ClipToBox v0.4.4" \
+            --notes "ClipToBox v0.4.4。包含适用于 Microsoft Edge、Google Chrome 及其他 Chromium 浏览器的扩展压缩包。"
