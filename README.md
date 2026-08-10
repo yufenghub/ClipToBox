@@ -1,6 +1,7 @@
 # ClipToBox
 
 检测剪贴板中新截图并自动粘贴到允许的 AI 对话页；可选择仅当前标签页或广播到所有 AI 标签页。
+Detects new screenshots in the clipboard and automatically pastes them into supported AI chat pages; options include pasting only into the current tab or broadcasting to all AI tabs.
 
 ## 演示
 
